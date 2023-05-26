@@ -27,7 +27,7 @@ body {
   text-transform: uppercase;
   color: var(--second-color);
 }
-.header-logo span {
+.header-span {
   color: var(--main-color);
 }
 .nav-item {
@@ -118,6 +118,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--main-color);
 }
 .team-card {
   background-color: #ffffff;
