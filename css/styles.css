@@ -2,11 +2,14 @@
   --main-color: #2e2f42;
   --second-color: #4d5ae5;
   --light-color: #f4f4fd;
+  --white-bg-color: #ffffff;
+  --pressed-color: #404bbf;
+  --text-color: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--text-color);
+  background-color: var(--white-bg-color);
 }
 .link {
   text-decoration-line: none;
@@ -41,7 +44,7 @@ body {
 }
 .nav-link .link:hover,
 .nav-link .link:focus {
-  color: #404bbf;
+  color: var(--pressed-color);
 }
 .contacts {
   font-style: normal;
@@ -54,7 +57,7 @@ body {
 }
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #404bbf;
+  color: var(--pressed-color);
 }
 /*----------------------- hero -------------- */
 .hero {
@@ -66,21 +69,21 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-bg-color);
 }
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white-bg-color);
+  background-color: var(--second-color);
   cursor: pointer;
   font-family: inherit;
   letter-spacing: 0.04em;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--pressed-color);
 }
 /* -------section advantage ps hide h2 -------*/
 .advtg h2 {
@@ -109,7 +112,7 @@ body {
 }
 /* -----------section team------------------ */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--light-color);
 }
 .team-title {
   font-weight: 700;
@@ -121,7 +124,7 @@ body {
   color: var(--main-color);
 }
 .team-card {
-  background-color: #ffffff;
+  background-color: var(--white-bg-color);
 }
 .team-name {
   font-weight: 500;
@@ -149,13 +152,13 @@ body {
   color: var(--second-color);
 }
 .logo-span {
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 /*---------- page portfolio.html---------- */
 
@@ -167,7 +170,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--second-color);
   font-family: inherit;
   cursor: pointer;
   background-color: var(--light-color);
@@ -175,8 +178,8 @@ body {
 .btn-list button:hover,
 .btn-list button:focus,
 .btn-list button:active {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-bg-color);
+  background-color: var(--pressed-color);
 }
 /* --------------контент------------------ */
 .portfolio-title {
